@@ -1,0 +1,163 @@
+body {
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px -10px 0px;
+  min-width: 320px;
+}
+
+nav {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  font-size: 1.3em;
+  height: 45px;
+  line-height: 1.25;
+  margin-top: 0px;
+  padding: 0px;
+  font-weight: bold;
+  position: fixed;
+  background-color: white;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+nav li, nav li a, nav li a:hover {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+}
+
+nav li a {
+  color: black;
+}
+
+nav li a:hover {
+  color: #ff3b3f;
+}
+
+main {
+  text-align: center;
+  height: 100vh;
+}
+
+.shift {
+  margin: -20px 0px 50px;
+  font-size: .85em;
+}
+
+.intro {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+}
+p {
+  margin: 20px;
+}
+
+h2 {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.container {
+  height: auto;
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #c5c5c5;
+}
+
+.project-tile {
+  margin: 10px;
+  padding: 10px;
+  flex: 1 1 30%;
+}
+
+img { 
+  border: 1px solid grey;
+  border-radius: 3px;
+  margin: 0 auto;
+  max-width: auto;
+  height: 280px;
+  display:block;
+}
+img:hover {
+  border: 1px solid #ff3b3f;
+}
+
+label {
+  font-size: .9em;
+  font-weight: bold;
+  line-height: 3;
+}
+
+button {
+  font-weight: bold;
+  height: 40px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: fixed;
+}
+button:hover {
+  color: white;
+  background-color: #ff3b3f;
+}
+.title {
+  margin-top: 300px;
+  width: 100%;
+  color: #505050;
+}
+
+.connect {
+  height: 90vh;
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #efefef;
+}
+.fab {
+  margin: 30px;
+  text-decoration: none;
+  color: #ff3b3f;
+}
+
+.fab:hover {
+  color: #505050;
+}
+
+
+@media (max-width: 1300px) {
+  .project-tile {
+  flex: 1 1 45%;
+}
+}
+  
+
+@media (max-width:900px) {
+  body {
+    font-size: 1em;
+  }
+  .project-tile {
+  flex: 1 1 80%;
+}
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 0.8em;
+  }
+}
