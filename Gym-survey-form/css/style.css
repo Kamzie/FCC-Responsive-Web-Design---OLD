@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  margin: 10px;
+  font-size: .9em;
+  font-family: "Playfair Display";
+  font-weight: bold;
+  background-color: #9d9dea;
+  min-width: 320px;
+}
+header {
+  color: #2121ca;
+}
+.container {
+  background-color: #e6e6fa;
+  color:black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+input[name=fullname], input[type=email], .list-menu, textarea {
+  width:90%;
+}
+.labels {
+  display: inline-block;
+  width: 45%;
+  padding: 10px;
+  text-align: right;
+  vertical-align: top;
+}
+.rightside {
+  margin-top: 10px;
+  display: inline-block;
+  width: 45%;
+  text-align: left;
+}
+.checkbox {
+  padding: 0px;
+  display: inline;
+}
+textarea {
+  resize: none;
+  height:100%;
+}
+input[type=submit] {
+  color: black;
+  font-weight: bold;
+  background-color: #b8b8f0;
+  margin: 20px;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid #9d9dea;
+}
+input[type=submit]:hover {
+  color: white;
+  background-color: #5b5bda;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 0.8em;
+  }
+  .labels {
+    display: ;
+    width: 100%;
+    text-align: left;
+    vertical-align: left;
+  }
+  .rightside {
+    margin: 0px 0px 0px 9px;
+    width: 100%;
+    vertical-align: left;
+  }
+}
