@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Product Landing Page</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<header id="header">
+  <nav id="nav-bar">
+    <ul class="navContainer">
+
+      <!-- Logo -->
+
+      <li><img id="header-img" class="logo" src="https://d1bdmzehmfm4xb.cloudfront.net/original/3X/b/7/b79e635ccc52682242b1951a9e83ebcdca81eea1.jpeg" alt="Company Logo"></li>
+
+      <!-- Navigation links -->
+
+      <li><a class="nav-link" href="#info">Info</a></li>
+      <li><a class="nav-link" href="#video">Media</a></li>
+      <li><a class="nav-link" href="#products">Products</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+
+  <!-- Nav-link to Info section = image + email box/submit button in container -->
+
+  <div id="info" class="container-info">
+    <img class="info-img" src="https://d2211byn0pk9fi.cloudfront.net/spree/taxons/38536/normal/battery--banner-10000.jpg?1542967024" alt="Man with battery backup" />
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <section>
+        <p><b>Anker</b> is the global leader in charging technology. This includes wireless charging, car charging, and our best-selling portable and wall chargers. <b>Anker</b> is pioneering power delivery technology to charge phones, tablets, and laptops
+          at unprecedented speeds.</p>
+      </section>
+      <p>
+        <b>For up to date information on upcoming products please join our mailing list.</b></p>
+
+      <!-- Email box + submit button -->
+
+      <input id="email" type="email" name="email" placeholder="Email" required>
+      <div class="button">
+        <input id="submit" type="submit" value="submit">
+    </form>
+    </div>
+  </div>
+
+  <!-- Nav-link to Media section -->
+
+  <section>
+    <video id="video" class="media" src="https://d1y6jrbzotnyjg.cloudfront.net/V3MSA/81e67b536cce4cbf970a1125643ab8e4/V1/5ef588c147144bcbbb0c9ffcbe1b85f4/ShortForm-Generic-480p-16-9-1409173089793-rpcbe5.mp4?Expires=1547268965&Signature=T0brANON5OWVRnxUl4uuSTEQgYa260qChmsmliEOJqBc89pQ8nCKhO5N6NVUadmYQucuZJft~vrAGhlHxp6WNjI9xcQGOgpJGxTyZF3zlWAC4SZ8u8EBTF4u38hD0toBPVmPvIC5v2uOnwEN9DNd3d640oq40CFoFsVrG~XiYyw_&Key-Pair-Id=APKAJ62XWKZ35EOVO4XA"
+      controls>
+ </section>
+    
+<!-- Flexbox for 3 products -->
+    
+   <div id="products" class="flex-container"> 
+     
+<!-- Product 1 -->
+     
+     <div class="flex-box">
+       <label><b>PowerCore 10000</b></label>
+     <img class="flex-img" src="https://d2211byn0pk9fi.cloudfront.net/spree/products/62912/product/A1266011_TD01_V2.jpg?1508986369" alt="product image of Anker PowerCore Speed 10000">
+     <p class="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+     <input type=submit value=Info><a href="#"></a></input>
+     </div>  
+    
+<!-- Product 2-->
+    
+     <div class="flex-box">
+       <label><b>PowerCore 10400</b></label>
+       <img class="flex-img" src="https://d2211byn0pk9fi.cloudfront.net/spree/products/30527/product/A1214011_TD01_V2.jpg?1494381886" alt="product image of Anker Powercore 10400">
+       <p class="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+       <input type=submit value=Info><a href="#"></a></input>
+     </div> 
+  
+<!-- Product 3 -->
+  
+     <div class="flex-box">
+       <label><b>PowerCore 13000</b></label>
+       <img class="flex-img" src="https://d2211byn0pk9fi.cloudfront.net/spree/products/62746/product/A1215011_TD01_V3.?1507513837" alt="product image of Anker Powercore 13000">
+       <p class="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+       <input type=submit value=Info><a href="#"></a></input>
+  </div>
+      </div>
+     <footer class="foot"> Written and coded by <a href="https://www.freecodecamp.org/kamzie" target="_blank"><b>Kamran Ramzan</b></a>
+        </footer> 
+  
+</main>
+  
+  
+
+</body>
+
+</html>
