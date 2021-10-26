@@ -135,25 +135,26 @@ button:hover {
   
 }
 .title {
-  margin-top: 300px;
   width: 100%;
   color: #505050;
 }
 
 .connect {
-  height: 100vh;
   display: flex;
+  flex-direction: column;
+  height: 100vh;
   padding: 20px;
   text-align: center;
-  flex-wrap: wrap;
   justify-content: center;
-   background-image: linear-gradient(to right, #e9ecef, #fff);
+  background-image: linear-gradient(to right, #e9ecef, #fff);
+}
+.links {
+  
 }
 .fab {
-  margin: 30px;
+  margin: 20px;
   text-decoration: none;
   color: #ff3b3f;
-  
   transition: color 0.25s;
 }
 
