@@ -2,9 +2,9 @@
 
 Certification projects - https://www.freecodecamp.org/Kamzie
 
-1 - Technical Documentation Page: https://codepen.io/kamzie/pen/vvRdyY?editors=0100
+1 - Technical Documentation Page: https://codepen.io/kamzie/full/vvRdyY
 
-2 - Personal Portfolio Webpage: https://codepen.io/kamzie/pen/OJgjomq
+2 - Personal Portfolio Webpage: https://codepen.io/kamzie/full/OJgjomq
 
 3 - Survey Form: https://codepen.io/kamzie/pen/XoVMvO?editors=0100
 
