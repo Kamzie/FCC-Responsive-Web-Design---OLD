@@ -2,8 +2,6 @@
 
 Certification projects - https://www.freecodecamp.org/Kamzie
 
-
-
 1 - Technical Documentation Page:  
 https://codepen.io/kamzie/pen/vvRdyY?editors=0100
 
@@ -19,4 +17,5 @@ https://codepen.io/kamzie/pen/jxNPaL
 5 - Product Landing Page:  
 https://codepen.io/kamzie/pen/VqQoKG?editors=0100
 
-testing
+6 - Cafe Menu
+https://codepen.io/kamzie/full/ExJabBb
