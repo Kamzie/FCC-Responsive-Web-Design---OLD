@@ -1,3 +1,5 @@
+Keeping backups of Freecodecamp end of section progjects
+
 # FCC-Responsive-Web-Design-Projects (OLD)
 
 Certification projects - https://www.freecodecamp.org/Kamzie
