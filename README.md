@@ -1,4 +1,4 @@
-Keeping backups of Freecodecamp end of section progjects
+Keeping backups of the Freecodecamp end of study section projects
 
 # FCC-Responsive-Web-Design-Projects (OLD)
 
